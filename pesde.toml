@@ -25,4 +25,4 @@ selene = { name = "pesde/selene", version = "^0.29.0+toolchainlib.1", target = "
 darklua = { name = "pesde/darklua", version = "^0.17.2", target = "lune" }
 
 [dependencies]
-luau_regexp = { name = "jiwonz/luau_regexp", version = "^0.1.3" }
+polyfill = { name = "jsdotluau/tstl_polyfill", version = "*" }
