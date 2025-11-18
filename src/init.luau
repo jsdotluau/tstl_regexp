@@ -1,6 +1,1 @@
-local hello = require("@pkg/hello")
-hello()
-
-return {
-	value = "Hi from " .. _G.RUNTIME,
-}
+local _regexp = if _G.RUNTIME == "lune" then require("@luau_pkg/luau_regexp") else require("@pkg/luau_regexp")
